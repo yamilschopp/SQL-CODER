@@ -71,7 +71,26 @@ INSERT INTO producto VALUES
 (NULL, 3, 'Camara bullet sony 4 mpx fullhd serie 897112', 2, 45000, 8, 3, 1),
 (NULL, 3, 'Lector de tarjetas SPEC serie 89666532', 3, 80000, 15, 2, 1);
 
+DELETE FROM producto WHERE tipo_producto = 3;
+DELETE FROM producto WHERE tipo_producto = 1;
+DELETE FROM producto WHERE tipo_producto = 7;
+
+INSERT INTO producto VALUES
+(1, 3, 'Notebook HP core i5 256 gb sd 8 gb ram serie 5466845', 4, 178000, 2, 1, 1),
+(2, 1, 'Camara bullet sony 4 mpx fullhd serie 897112', 2, 45000, 8, 3, 1),
+(3, 7, 'Lector de tarjetas SPEC serie 89666532', 3, 80000, 15, 2, 1);
+
+INSERT INTO movimiento_usuario VALUES
+(NULL, '1', '3', '1'),
+(NULL, '1', '1', '3'),
+(NULL, '1', '2', '2');
+
 INSERT INTO movimiento_producto VALUES
-(NULL, 1, 3, 1),
-(NULL, 1, 1, 3),
-(NULL, 1, 7, 2);
+(NULL, '1', '3', '1'),
+(NULL, '1', '1', '3'),
+(NULL, '1', '2', '2');
+
+INSERT INTO usuario_tipo VALUES
+(NULL, '3', '3'),
+(NULL, '1', '2'),
+(NULL, '2', '4');

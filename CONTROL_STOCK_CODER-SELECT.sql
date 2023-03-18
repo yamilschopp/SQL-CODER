@@ -20,4 +20,8 @@ SELECT * FROM deposito;
 
 SELECT * FROM proveedor;
 
-SELECT * FROM producto;
+SELECT * FROM movimiento_usuario;
+
+SELECT * FROM movimiento_producto;
+
+SELECT * FROM usuario_tipo;
