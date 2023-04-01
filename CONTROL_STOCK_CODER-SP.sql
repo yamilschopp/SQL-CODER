@@ -21,6 +21,7 @@ $$
 
 CALL ordenar_tabla_marcas('descripcion', 'asc');
 
+
 /* PS #2: insertar registros en una tabla o eliminar algún registro específico */ 
 
 DELIMITER $$

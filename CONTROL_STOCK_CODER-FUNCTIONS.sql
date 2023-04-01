@@ -44,4 +44,4 @@ BEGIN
 
 END$$
 
-SELECT count_product(1);
+SELECT count_product(2);
