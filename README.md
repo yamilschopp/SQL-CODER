@@ -26,7 +26,7 @@ Se encuentra en el repositorio con el nombre de CONTROL_STOCK_CODER-INSERT.sql
 Se encuentra en el repositorio con el nombre de CONTROL_STOCK_CODER-VIEWS.sql, CONTROL_STOCK_CODER-SP.sql, CONTROL_STOCK_CODER-FUNCTIONS.sql y CONTROL_STOCK_CODER-TRIGGERS.sql, ademas de ello se podrá encontrar la descripción de cada elemento en el archivo 2da entrega_yamil_schopp.docx
 
 # Informes generados en base a la información de la base
-Esto se hace a partir de las vistas ´informacion_pasajero´, ´informacion_empleado´ y ´informacion_rutas´.
+Esto se hace a partir de las vistas ´movimiento_usuarios´ y ´stock´
 
 # Herramientas y tecnologías usadas
 * Mysql Workbench
