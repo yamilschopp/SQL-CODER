@@ -33,3 +33,9 @@ CREATE OR REPLACE VIEW ciudades AS
 (SELECT DISTINCT descripcion, cp FROM ciudad);
 
 SELECT * FROM ciudades;
+
+#Cantidad en stock de cada producto
+CREATE OR REPLACE VIEW stock AS
+(SELECT DISTINCT id_producto, cantidad FROM producto);
+
+SELECT * FROM stock;
